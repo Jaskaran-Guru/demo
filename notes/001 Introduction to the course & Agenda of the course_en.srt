@@ -1,0 +1,740 @@
+1
+00:00:00,320 --> 00:00:07,070
+Welcome to the in detail course on Spring, Spring Boot, JPA and Hibernate. Inside Java Ecosystem 
+
+2
+00:00:07,070 --> 00:00:11,360
+These are the mostly used and mostly appreciated frameworks.
+
+3
+00:00:11,360 --> 00:00:18,830
+You can't imagine an application or an project or an interview without talking about these frameworks.
+
+4
+00:00:18,830 --> 00:00:24,830
+So that's why if you want to become a successful Java developer, understanding and mastering these
+
+5
+00:00:24,830 --> 00:00:31,400
+frameworks is very important and this course is going to help you to master these frameworks by talking
+
+6
+00:00:31,400 --> 00:00:37,400
+and discussing about each and every concepts that we have inside the spring and associated ecosystem
+
+7
+00:00:37,400 --> 00:00:38,090
+projects.
+
+8
+00:00:38,090 --> 00:00:44,690
+So spring, right from day one when it was introduced in 2004, it is keep on changing based upon the  
+
+9
+00:00:44,690 --> 00:00:45,950
+developer needs.
+
+10
+00:00:45,950 --> 00:00:51,290
+So since it is evolving a lot based upon the developer community and the latest trends.
+
+11
+00:00:51,290 --> 00:00:57,800
+So from last two decades, the spring framework became very popular and it is super successful.
+
+12
+00:00:57,800 --> 00:01:04,500
+That's why everyone inside the Java developer community, they are using Spring as a framework inside
+
+13
+00:01:04,500 --> 00:01:05,880
+their web applications.
+
+14
+00:01:05,880 --> 00:01:11,400
+If you want to build a full stack web application or if you want to build a plain back end system,
+
+15
+00:01:11,400 --> 00:01:17,490
+or if you want to build microservices wherever you go, you can find at least one of the project of
+
+16
+00:01:17,490 --> 00:01:21,000
+Spring framework is being used inside those web applications.
+
+17
+00:01:21,000 --> 00:01:26,400
+So with all these reasons, it's very important to understand and master the spring framework.
+
+18
+00:01:26,400 --> 00:01:31,380
+So before you take a decision whether to enroll for this course or not, let me cover you,
+
+19
+00:01:31,410 --> 00:01:36,420
+what are all the topics and concepts that I'm going to discuss inside this course?
+
+20
+00:01:36,420 --> 00:01:42,150
+Like you can see here, first we are going to start this course by talking about the Spring framework
+
+21
+00:01:42,150 --> 00:01:42,810
+introduction.
+
+22
+00:01:42,810 --> 00:01:43,560
+What is spring?
+
+23
+00:01:43,560 --> 00:01:50,280
+How it is different from the Java Enterprise Edition framework and how spring evolved over last two
+
+24
+00:01:50,280 --> 00:01:50,670
+decades?
+
+25
+00:01:50,670 --> 00:01:55,980
+What is the release timeline of spring and what are all the different projects that we have inside the
+
+26
+00:01:55,980 --> 00:01:57,330
+spring ecosystem?
+
+27
+00:01:57,330 --> 00:02:03,120
+Once we are clear about the introduction of the spring framework, we will jump on to the spring core
+
+28
+00:02:03,120 --> 00:02:03,840
+concepts.
+
+29
+00:02:03,840 --> 00:02:09,600
+So inside the spring core concepts, we are going to discuss what is an inversion of control, what
+
+30
+00:02:09,600 --> 00:02:15,000
+is an dependency injection and what are the beans inside the spring framework, how to create them and
+
+31
+00:02:15,000 --> 00:02:20,970
+how to auto wire them based upon the concepts like inversion of control and dependency injection.
+
+32
+00:02:20,970 --> 00:02:27,030
+And we'll also discussing about aspect oriented programming paradigm, which is available inside the
+
+33
+00:02:27,030 --> 00:02:27,990
+spring framework.
+
+34
+00:02:27,990 --> 00:02:33,000
+And once we are clear about the spring core concepts which we are going to discuss at the starting of
+
+35
+00:02:33,000 --> 00:02:37,470
+this course, we will jump on to the concept of spring MVC.
+
+36
+00:02:37,470 --> 00:02:43,350
+So when we are discussing about the spring MVC, we'll try to understand what is an MVC pattern, how
+
+37
+00:02:43,350 --> 00:02:46,110
+it is going to help us in building web applications.
+
+38
+00:02:46,110 --> 00:02:52,230
+So once we are clear about this MVC pattern, we are going to discuss how the spring MVC adopted the
+
+39
+00:02:52,230 --> 00:02:58,170
+MVC pattern and what is the internal architecture of the spring MVC and how it is going to make our
+
+40
+00:02:58,170 --> 00:03:02,400
+lives easy in building web applications with the help of MVC Pattern.
+
+41
+00:03:02,400 --> 00:03:08,580
+And when we are discussing about spring MVC, we'll also talk about how to perform validations on your
+
+42
+00:03:08,580 --> 00:03:09,840
+UI forms,
+
+43
+00:03:10,080 --> 00:03:11,100
+HTML forms.
+
+44
+00:03:11,100 --> 00:03:16,350
+That way, the bad data entered by your end user will not come into your database.
+
+45
+00:03:16,350 --> 00:03:22,140
+So once we are clear about the spring MVC concept, we will straight away jump on to the Thymeleaf.
+
+46
+00:03:22,140 --> 00:03:29,100
+So Thymeleaf will allow us to build dynamic web applications by integrating both Thymeleaf and spring
+
+47
+00:03:29,100 --> 00:03:33,060
+projects like Spring MVC, Spring Core and Spring Security.
+
+48
+00:03:33,060 --> 00:03:39,630
+So by adopting both Spring framework and Thymeleaf libraries, we are going to build a dynamic web application
+
+49
+00:03:39,630 --> 00:03:46,410
+inside this course, and I'll be showing a sample glimpse of that dynamic web application in few minutes.
+
+50
+00:03:46,410 --> 00:03:47,640
+After Thymeleaf.
+
+51
+00:03:47,640 --> 00:03:52,950
+We are going to spend a good amount of time understanding what is Spring boot, how it is different
+
+52
+00:03:52,950 --> 00:03:58,650
+from Spring MVC, Spring core, why everyone these days loving spring boot, whether they are going
+
+53
+00:03:58,650 --> 00:04:02,100
+to build a web applications or rest service or microservices.
+
+54
+00:04:02,100 --> 00:04:05,040
+Why everyone is adopting spring boot these days.
+
+55
+00:04:05,040 --> 00:04:09,210
+So all those kind of discussion we are going to do under the section of Spring Boot.
+
+56
+00:04:09,210 --> 00:04:14,460
+And once we are clear about the Spring Boot project, we are also going to discuss the concepts of spring
+
+57
+00:04:14,460 --> 00:04:19,980
+boot like auto configuration, how to build web application with the help of Spring Boot, Thymeleaf, Spring
+
+58
+00:04:19,980 --> 00:04:20,490
+MVC.
+
+59
+00:04:20,670 --> 00:04:22,110
+What is Spring Boot DevTools?
+
+60
+00:04:22,110 --> 00:04:24,090
+What is Spring Boot H2 database?
+
+61
+00:04:24,090 --> 00:04:28,260
+So all these are the beautiful concepts that are available inside the spring boot.
+
+62
+00:04:28,260 --> 00:04:33,240
+So we are going to spend a good amount of time understanding the spring boot, because Spring Boot is
+
+63
+00:04:33,240 --> 00:04:36,570
+a heart framework or project inside the spring ecosystem.
+
+64
+00:04:36,570 --> 00:04:43,260
+After spring boot, we are going to learn how to secure our web application or rest APIs with the help
+
+65
+00:04:43,260 --> 00:04:47,520
+of spring security framework available inside the spring ecosystem.
+
+66
+00:04:47,520 --> 00:04:53,640
+So with the help of spring security, we will learn how to implement authentication and authorization
+
+67
+00:04:53,640 --> 00:04:57,300
+role based access inside the web applications.
+
+68
+00:04:57,300 --> 00:04:59,790
+And along with that, we'll also learn how we.
+
+69
+00:04:59,830 --> 00:05:06,670
+Can leverage spring security to protect our Web application from the most common security vulnerabilities
+
+70
+00:05:06,670 --> 00:05:11,420
+like cross-site request forgery and cross-origin resource sharing.
+
+71
+00:05:11,440 --> 00:05:17,800
+After spring security, we will jump on to the projects and frameworks related to the persistent layer.
+
+72
+00:05:17,800 --> 00:05:23,440
+So inside the persistent layer, we are going to write a lot of Java code in order to interact with
+
+73
+00:05:23,440 --> 00:05:24,430
+the databases.
+
+74
+00:05:24,430 --> 00:05:29,860
+So that's where we will try to understand what is spring JDBC, how it is different from the core Java
+
+75
+00:05:29,860 --> 00:05:36,520
+JDBC, how the spring JDBC is going to make our lives easy with the help of JDBC templates available
+
+76
+00:05:36,520 --> 00:05:38,590
+inside the spring JDBC project.
+
+77
+00:05:38,590 --> 00:05:45,730
+After spring JDBC, we are going to discuss what is an ORM frameworks, how frameworks are better than
+
+78
+00:05:45,760 --> 00:05:50,650
+spring JDBC, how we can write a persistent code with the help of warm frameworks.
+
+79
+00:05:50,650 --> 00:05:55,330
+Why everyone is loving warm frameworks like Hibernate Spring Data, JPA these days.
+
+80
+00:05:55,330 --> 00:06:00,310
+So inside this course we are going to spend a good amount of time understanding all the warm framework
+
+81
+00:06:00,310 --> 00:06:06,640
+concepts and how to build a web applications with very less code of persistent logic where we don't
+
+82
+00:06:06,640 --> 00:06:12,400
+have to write a lot of SQL queries, we can rely completely on the ORM frameworks to perform some CRUD
+
+83
+00:06:12,400 --> 00:06:15,550
+operations onto the database and inside the spring data.
+
+84
+00:06:15,550 --> 00:06:21,730
+We'll also discuss about the advanced concepts like different mappings that we have inside ORM frameworks
+
+85
+00:06:21,730 --> 00:06:28,420
+like 1 to 1, one to many, many to one, many to many that are available inside Spring Data, JPA and
+
+86
+00:06:28,420 --> 00:06:29,200
+Hibernate.
+
+87
+00:06:29,200 --> 00:06:35,620
+And when we are discussing about spring data and spring Data JPA, we are going to build our web application
+
+88
+00:06:35,620 --> 00:06:41,680
+with the help of ORM framework like Spring Data JPA and internally this spring data JPA is going
+
+89
+00:06:41,680 --> 00:06:44,950
+to leverage Hibernate as an implementation framework.
+
+90
+00:06:44,950 --> 00:06:50,560
+So that's why we are going to discuss all the concepts that are common to the ORM frameworks like Spring
+
+91
+00:06:50,560 --> 00:06:53,440
+Data  JPA and Hibernate inside this course.
+
+92
+00:06:53,440 --> 00:06:58,660
+And once we are clear about these advanced concepts, we'll also discuss about how to sort the data,
+
+93
+00:06:58,660 --> 00:07:05,500
+how to do pagination and how to write queries with the help of JPQL format inside the web applications.
+
+94
+00:07:05,500 --> 00:07:10,390
+So all these advanced topics that are going to make our lives super easy as a developers.
+
+95
+00:07:10,390 --> 00:07:16,060
+So that's why I'm going to spend a good amount of time making you understanding about these advanced
+
+96
+00:07:16,060 --> 00:07:21,400
+concepts and advanced  ORM frameworks that we have inside the spring ecosystem.
+
+97
+00:07:21,400 --> 00:07:23,980
+And of course hibernate is a separate framework.
+
+98
+00:07:23,980 --> 00:07:30,100
+But as long as you are learning about spring data JPA and the concepts around the ORM frameworks,
+
+99
+00:07:30,100 --> 00:07:35,560
+both Spring Data JPA and Hibernate, they are going to work in a very similar manner.
+
+100
+00:07:35,560 --> 00:07:40,030
+Like I was telling before, whenever you are trying to build a web application with the help of Spring
+
+101
+00:07:40,030 --> 00:07:47,440
+Data JPA, internally your spring data JPA is going to leverage Hibernate framework as an implementation.
+
+102
+00:07:47,440 --> 00:07:54,340
+So that's why I want to highlight that we are not going to discuss spring data JPA and Hibernate separately.
+
+103
+00:07:54,340 --> 00:07:58,390
+We are going to discuss them as a common ORM framework.
+
+104
+00:07:58,390 --> 00:08:04,720
+Like if I'm explaining a concept like one to 1 or 1 to many that are applicable to ORM frameworks,
+
+105
+00:08:04,720 --> 00:08:09,220
+the same concept is applicable for both Spring data JPA and Hibernate.
+
+106
+00:08:09,220 --> 00:08:15,130
+And once we are clear about the spring data and spring Data JPA framework, we are also going to discuss
+
+107
+00:08:15,130 --> 00:08:20,560
+how to build the rest service and how to consume the rest service with the help of Spring Boot and the
+
+108
+00:08:20,560 --> 00:08:23,380
+concepts that we have inside the spring framework.
+
+109
+00:08:23,380 --> 00:08:26,980
+In the process, we will also learn how to secure our rest services.
+
+110
+00:08:26,980 --> 00:08:32,830
+And once we discuss all these main projects, we are also going to discuss the miscellaneous concepts
+
+111
+00:08:32,830 --> 00:08:36,640
+that we need to be aware whenever we are building web applications.
+
+112
+00:08:36,640 --> 00:08:41,409
+And one of the miscellaneous concepts that we are going to focus inside this course is logging.
+
+113
+00:08:41,409 --> 00:08:46,030
+So whenever we are discussing about logging, I'll be explaining you the importance of logging, what
+
+114
+00:08:46,030 --> 00:08:49,960
+are the different severities and how to control the severities of logging.
+
+115
+00:08:49,960 --> 00:08:56,470
+And in this process I'll explain you how Spring Boot is going to make our life so much easy in terms
+
+116
+00:08:56,470 --> 00:08:58,660
+of logging inside the web applications.
+
+117
+00:08:58,660 --> 00:09:05,380
+And we'll also discuss how to write our logs into a file that we have defined inside a folder location.
+
+118
+00:09:05,380 --> 00:09:12,280
+After logging, we will also discuss about how to define a property inside a property file and how to
+
+119
+00:09:12,280 --> 00:09:17,170
+read the properties that are available inside a property file from your Java code.
+
+120
+00:09:17,170 --> 00:09:23,050
+And once we are clear about these basic concepts of properties, we are also going to discuss advanced
+
+121
+00:09:23,050 --> 00:09:26,440
+concepts that is available inside the Spring boot, which is profiles.
+
+122
+00:09:26,440 --> 00:09:33,490
+So using profiles, I'll teach you how we can activate a specific set of properties or a logical group
+
+123
+00:09:33,490 --> 00:09:37,540
+of properties based upon the environment where your application is running.
+
+124
+00:09:37,540 --> 00:09:42,820
+And I'll also show you how to conditionally create the beans based upon the activated profile.
+
+125
+00:09:42,820 --> 00:09:48,520
+And once we are clear about these properties and profiles and at last we are going to discuss about
+
+126
+00:09:48,520 --> 00:09:50,200
+the spring boot actuator.
+
+127
+00:09:50,200 --> 00:09:56,410
+So we'll learn what is spring boot actuator, what are the different APIs or endpoints that are exposed
+
+128
+00:09:56,410 --> 00:09:59,770
+by the spring boot actuator and how we can leverage this information?
+
+129
+00:10:00,170 --> 00:10:06,980
+Available inside these APIs to understand the health of our web application and to monitor our web application
+
+130
+00:10:07,000 --> 00:10:12,050
+whenever we deploy our web application into a higher environment like production.
+
+131
+00:10:12,050 --> 00:10:18,350
+Once we discuss all the topics of Spring, Spring Boot and all other remaining framework towards the
+
+132
+00:10:18,350 --> 00:10:26,240
+end of the course, we are also going to deploy the Spring boot web application into the cloud environment.
+
+133
+00:10:26,240 --> 00:10:32,510
+And here I also want to highlight that I have put a lot of efforts in building the content of this course
+
+134
+00:10:32,510 --> 00:10:38,300
+so that you can easily understand all the concepts that we are going to discuss inside this course.
+
+135
+00:10:38,300 --> 00:10:43,040
+Like you can see here, this are all the sample content that I'm going to present.
+
+136
+00:10:43,040 --> 00:10:50,240
+So inside this content I have mentioned all the notes and sample code screenshots that you may need
+
+137
+00:10:50,240 --> 00:10:56,000
+whenever you want to brush up all these concepts in the future, even after one year or two years.
+
+138
+00:10:56,000 --> 00:11:02,550
+That way this content, you can always refer them whenever you have some questions or whenever you are
+
+139
+00:11:02,550 --> 00:11:03,900
+going for an interview.
+
+140
+00:11:03,930 --> 00:11:10,170
+You can always use this as a quick material to brush up your skills on the spring framework. And all
+
+141
+00:11:10,170 --> 00:11:17,400
+the complex topics inside the spring framework are presented in an easily understandable format.
+
+142
+00:11:17,400 --> 00:11:21,480
+So I'm going to share all this content in a PDF format to you.
+
+143
+00:11:21,480 --> 00:11:24,660
+That way you don't have to worry about taking notes.
+
+144
+00:11:24,660 --> 00:11:26,610
+You can simply focus on the course.
+
+145
+00:11:26,610 --> 00:11:32,520
+And apart from discussing about the theory inside this course, we are also going to implement a web
+
+146
+00:11:32,520 --> 00:11:37,740
+application by leveraging all the concepts that we are going to learn inside this course.
+
+147
+00:11:37,740 --> 00:11:43,380
+So let me show you the sample glimpse of the web application that we are going to build by the end of
+
+148
+00:11:43,380 --> 00:11:44,160
+this course.
+
+149
+00:11:44,160 --> 00:11:48,540
+Like you can see here, this is the sample web application that we are going to build.
+
+150
+00:11:48,540 --> 00:11:52,920
+So this web application is based upon the school functionality.
+
+151
+00:11:52,920 --> 00:11:58,560
+The reason why I have chose the school functionality is, school is a concept or a functionality which
+
+152
+00:11:58,560 --> 00:12:04,110
+is very close to our hearts and no one need a special knowledge to understand the functionality or the
+
+153
+00:12:04,110 --> 00:12:06,720
+logistics that we have around the school.
+
+154
+00:12:06,720 --> 00:12:09,510
+So that's why I have choose this school functionality.
+
+155
+00:12:09,510 --> 00:12:15,120
+And inside this school web application, we are going to build all the dynamic web pages with the help
+
+156
+00:12:15,120 --> 00:12:16,200
+of spring framework.
+
+157
+00:12:16,200 --> 00:12:23,370
+Like this is a home page and we'll also have many HTML form pages where we can enter the data inside
+
+158
+00:12:23,370 --> 00:12:24,600
+our web application.
+
+159
+00:12:24,600 --> 00:12:30,570
+And during this process, we'll also validate the data that is entered by my end user with the help
+
+160
+00:12:30,570 --> 00:12:34,710
+of validations concepts that are available inside the spring framework.
+
+161
+00:12:34,710 --> 00:12:41,970
+And apart from saving the data from the HTML forms, we'll also display the data from the back end onto
+
+162
+00:12:41,970 --> 00:12:45,120
+our easy School web application that we are going to build.
+
+163
+00:12:45,120 --> 00:12:50,160
+Like you can see here, all these all this information is coming from the back end database.
+
+164
+00:12:50,160 --> 00:12:56,160
+So with the help of Spring framework, I'll be showing how to load the data from the database and how
+
+165
+00:12:56,160 --> 00:13:00,210
+to send that to an UI web application and how to display that.
+
+166
+00:13:00,210 --> 00:13:04,170
+So all those kind of end to end concepts we are going to discuss.
+
+167
+00:13:04,170 --> 00:13:08,160
+And also we'll be having a login page and using this login page.
+
+168
+00:13:08,160 --> 00:13:11,430
+I'm going to secure my web application that way,
+
+169
+00:13:11,430 --> 00:13:16,260
+only authenticated and authorized users will access my web application.
+
+170
+00:13:16,260 --> 00:13:22,290
+So if I try to log in with my admin credentials, you can see there are many links that will be available
+
+171
+00:13:22,290 --> 00:13:29,070
+inside the dashboard where by clicking on these links my admin can see the data and he can perform many
+
+172
+00:13:29,070 --> 00:13:31,200
+actions on this web application.
+
+173
+00:13:31,200 --> 00:13:36,990
+So this way we are going to implement security inside our web application with the help of spring security
+
+174
+00:13:36,990 --> 00:13:43,770
+and we'll also implement role based access inside our web application and all the data that we are going
+
+175
+00:13:43,770 --> 00:13:49,950
+to save and fetch and display onto this web page will be handled with the help of frameworks like Spring
+
+176
+00:13:49,950 --> 00:13:56,220
+Data JPA, Spring JDBC and ORM frameworks that we are going to discuss inside this course.
+
+177
+00:13:56,220 --> 00:14:00,420
+I hope you are clear about what we are going to discuss inside this course.
+
+178
+00:14:00,420 --> 00:14:05,910
+So if you are looking to master the spring framework and its associated projects like Spring Boot, Spring
+
+179
+00:14:05,910 --> 00:14:12,960
+Data JPA, then definitely please go ahead and register to this course without any thought and I'm sure
+
+180
+00:14:12,960 --> 00:14:17,670
+that you will like this course based upon the content that we are going to discuss.
+
+181
+00:14:17,670 --> 00:14:23,130
+And like I said, I'm going to share the all the PDF content that I'm going to present inside this course.
+
+182
+00:14:23,130 --> 00:14:28,920
+And along with that, I'm also going to share you the source code of this web application, which I'm
+
+183
+00:14:28,920 --> 00:14:31,020
+maintaining inside a GitHub repository.
+
+184
+00:14:31,020 --> 00:14:34,170
+So with this I'm hoping you to see in the next lecture.
+
+185
+00:14:34,170 --> 00:14:35,520
+Thank you and bye.
+

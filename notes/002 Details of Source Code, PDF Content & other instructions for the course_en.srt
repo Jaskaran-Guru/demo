@@ -1,0 +1,532 @@
+1
+00:00:00,640 --> 00:00:07,000
+I know you are super excited to start the journey of spring inside this course, but before we jump
+
+2
+00:00:07,000 --> 00:00:13,510
+on to the world of Spring framework, let me share a few important details that will help you to get
+
+3
+00:00:13,510 --> 00:00:16,070
+maximum benefits from this spring course.
+
+4
+00:00:16,090 --> 00:00:21,850
+The very first information that I want to share is, like you can see this is the GitHub repository
+
+5
+00:00:21,850 --> 00:00:27,010
+information where I'm maintaining all the source code related to this particular course.
+
+6
+00:00:27,010 --> 00:00:32,049
+And inside this source code you can see there are more than 50 example projects.
+
+7
+00:00:32,049 --> 00:00:38,440
+The reason why I'm giving so many example projects here is, I should have given a single project which
+
+8
+00:00:38,440 --> 00:00:44,470
+has all the source code that we are going to discuss inside this course, but that will be very tedious
+
+9
+00:00:44,470 --> 00:00:50,860
+job for you to understand everything with a single web application project, because inside this course
+
+10
+00:00:50,860 --> 00:00:56,740
+we are going to explore the features of the spring framework and we are going to build a web application
+
+11
+00:00:56,740 --> 00:00:58,420
+in a step by step manner.
+
+12
+00:00:58,420 --> 00:01:05,810
+So that's why to make your life easy, I have created a separate MAVEN project for each and every step
+
+13
+00:01:05,810 --> 00:01:12,680
+that we are going to take while building a web application or while discussing the spring related important
+
+14
+00:01:12,680 --> 00:01:13,340
+features.
+
+15
+00:01:13,340 --> 00:01:19,220
+And you can always understand what exactly we have implemented inside that particular example by looking
+
+16
+00:01:19,220 --> 00:01:23,660
+at the GitHub comments against that particular example project.
+
+17
+00:01:23,660 --> 00:01:30,920
+Like you can see here under example 4 project, we are going to implement primary annotation inside
+
+18
+00:01:30,920 --> 00:01:34,880
+our code, but before that I'll make sure I'm sharing enough details.
+
+19
+00:01:34,880 --> 00:01:39,560
+What is the purpose of primary annotation and how to write a sample code around that?
+
+20
+00:01:39,560 --> 00:01:45,680
+And all these examples, they are enhanced in a sequential manner, like whatever code that you see
+
+21
+00:01:45,710 --> 00:01:50,540
+inside example for the same code will be present inside the example 5 as well.
+
+22
+00:01:50,540 --> 00:01:58,100
+The only difference between example five and example four is, this example five will have more code related
+
+23
+00:01:58,100 --> 00:02:00,860
+to the feature of spring that we have discussed.
+
+24
+00:02:00,860 --> 00:02:02,660
+Like inside Example five.
+
+25
+00:02:02,690 --> 00:02:07,850
+I'll be showing you how to create a bean with the help of @Component annotation.
+
+26
+00:02:07,850 --> 00:02:14,360
+So this way all these examples, those are enhanced in a step by step manner and you can see we have
+
+27
+00:02:14,360 --> 00:02:20,120
+more than 50 projects and against each of these project I have mentioned what exactly we are going to
+
+28
+00:02:20,120 --> 00:02:23,360
+implement inside that particular example project.
+
+29
+00:02:23,360 --> 00:02:27,770
+So here I'm mentioning types of auto wiring and the purpose of qualifier annotation.
+
+30
+00:02:27,770 --> 00:02:32,780
+And here we are going to build an Hello World web app using Thymeleaf and DevTools demo.
+
+31
+00:02:32,930 --> 00:02:38,630
+And similarly, you can also look at this example 26, where I'll be providing an introduction to spring
+
+32
+00:02:38,630 --> 00:02:42,740
+security and how to configure spring security inside an web application.
+
+33
+00:02:42,740 --> 00:02:48,530
+So similarly, we have many other example projects, so that's why please travel along with me.
+
+34
+00:02:48,530 --> 00:02:54,290
+Like whenever I am creating a new web application, you don't have to create a new web application again.
+
+35
+00:02:54,290 --> 00:02:58,550
+Instead, you can keep updating the single web application that you have.
+
+36
+00:02:58,580 --> 00:03:04,880
+That way, it will be very easy for you to enhance your web application in a step by step manner.
+
+37
+00:03:04,880 --> 00:03:11,480
+But I'm giving so many examples of web applications just for your convenience, because using this example
+
+38
+00:03:11,480 --> 00:03:13,430
+projects, you can always compare,
+
+39
+00:03:13,430 --> 00:03:17,150
+what's the difference between example 34 and example 35.
+
+40
+00:03:17,180 --> 00:03:23,660
+That way you can identify the list of changes that I have made in order to achieve the functionality
+
+41
+00:03:23,660 --> 00:03:25,160
+that I'm highlighted here.
+
+42
+00:03:25,160 --> 00:03:28,820
+Like to migrate from JDBC template to spring data JPA.
+
+43
+00:03:28,820 --> 00:03:35,090
+So what I have done, what exactly I have done, you can always identify that by comparing the two example
+
+44
+00:03:35,090 --> 00:03:38,150
+projects like example 34 and example 35.
+
+45
+00:03:38,150 --> 00:03:44,660
+And the next important information that I want to share here is, I am going to discuss a lot of PowerPoint
+
+46
+00:03:44,690 --> 00:03:48,080
+slides like there are more than 200 PowerPoint slides.
+
+47
+00:03:48,080 --> 00:03:52,040
+So inside these slides I'll be discussing a lot of theory discussion.
+
+48
+00:03:52,040 --> 00:03:56,150
+I'll be having some screenshots, how to make certain code configurations.
+
+49
+00:03:56,150 --> 00:03:58,670
+What is the purpose of a particular annotation?
+
+50
+00:03:58,670 --> 00:04:03,050
+What is an internal flow architecture of a particular component inside spring framework?
+
+51
+00:04:03,050 --> 00:04:07,400
+So this PowerPoint slide I'm going to share as a PDF version to you.
+
+52
+00:04:07,400 --> 00:04:13,280
+So that way you don't have to take the notes while you are trying to understand the topic that I'm discussing.
+
+53
+00:04:13,280 --> 00:04:15,800
+So that's why don't worry about taking notes.
+
+54
+00:04:15,800 --> 00:04:18,740
+All the details that I'm going to discuss inside this course.
+
+55
+00:04:18,740 --> 00:04:24,080
+They are available inside the PDF file that I'm going to share inside this course.
+
+56
+00:04:24,080 --> 00:04:27,710
+So the same pdf file I have attached to this video.
+
+57
+00:04:27,710 --> 00:04:32,060
+So please go ahead and download the PDF and have that as a reference,
+
+58
+00:04:32,060 --> 00:04:35,120
+whenever you are looking at a particular lecture.
+
+59
+00:04:35,150 --> 00:04:41,360
+That way you can always try to correlate and you can also use the same pdf file to brush up the topics
+
+60
+00:04:41,360 --> 00:04:45,890
+that we have discussed inside this course, even after six months or even after one year.
+
+61
+00:04:45,890 --> 00:04:51,800
+And whenever you look at this PDF file, it will be very easy for you to understand or to grasp the
+
+62
+00:04:51,800 --> 00:04:54,890
+topics or to brush up the topics again.
+
+63
+00:04:54,890 --> 00:04:59,540
+And this will be a savior whenever you are trying to attend an interview on spring.
+
+64
+00:04:59,540 --> 00:05:00,050
+So in order
+
+65
+00:05:00,090 --> 00:05:03,870
+to download this PDF content, you can see under this lecture 2
+
+66
+00:05:03,870 --> 00:05:10,080
+there is an resources link and when you click on this resources link you will have an option to
+
+67
+00:05:10,110 --> 00:05:13,110
+download the file with the name spring.pdf.
+
+68
+00:05:13,140 --> 00:05:14,340
+So my request is,
+
+69
+00:05:14,370 --> 00:05:15,870
+please download this pdf.
+
+70
+00:05:16,110 --> 00:05:17,760
+Try to avoid taking notes.
+
+71
+00:05:17,760 --> 00:05:22,830
+Please completely concentrate on the course and of course if there is some unique approach that you
+
+72
+00:05:22,830 --> 00:05:26,100
+follow in taking notes, I would encourage you to continue that.
+
+73
+00:05:26,100 --> 00:05:28,140
+But please have this as a reference.
+
+74
+00:05:28,140 --> 00:05:33,990
+That way you are not trying to duplicate the effort or you are not trying to duplicate the information
+
+75
+00:05:33,990 --> 00:05:35,640
+in multiple places.
+
+76
+00:05:35,670 --> 00:05:41,550
+And the third important information that I want to share here is I have built this course by by assuming
+
+77
+00:05:41,550 --> 00:05:44,340
+you have zero knowledge on spring framework.
+
+78
+00:05:44,340 --> 00:05:49,620
+So due to that reason, I have provided a lot, many details at many places.
+
+79
+00:05:49,620 --> 00:05:56,400
+But for some reason, if you feel like you already know about a particular topic, you are free to skip
+
+80
+00:05:56,400 --> 00:05:57,510
+that particular lecture.
+
+81
+00:05:57,510 --> 00:05:59,730
+That way you won't feel get bored.
+
+82
+00:05:59,730 --> 00:06:05,500
+So that's why whenever you are trying to start a lecture first, try to understand if you already aware
+
+83
+00:06:05,500 --> 00:06:09,610
+of this particular concept that I'm going to discuss inside that lecture.
+
+84
+00:06:09,610 --> 00:06:16,210
+If yes, feel free to skip or you can fast forward very quickly that that way you also brush up the
+
+85
+00:06:16,210 --> 00:06:22,030
+concept very quickly while I'm discussing the same inside the lecture and inside this Section one and
+
+86
+00:06:22,030 --> 00:06:26,200
+Section two, I'm going to talk very detail about the spring framework.
+
+87
+00:06:26,200 --> 00:06:27,430
+What is the purpose of it?
+
+88
+00:06:27,460 --> 00:06:29,470
+Why should we use frameworks at all?
+
+89
+00:06:29,470 --> 00:06:31,390
+What are the spring core concepts?
+
+90
+00:06:31,390 --> 00:06:37,690
+That's why these first two courses are like entirely theory, but the actual coding implementations
+
+91
+00:06:37,690 --> 00:06:42,760
+will start from the section three, like, right, from how to create a bin inside the spring framework.
+
+92
+00:06:42,760 --> 00:06:48,250
+And from there we are going to build a web application with all the spring projects and with all
+
+93
+00:06:48,250 --> 00:06:51,190
+the features that we are going to discuss inside this course.
+
+94
+00:06:51,190 --> 00:06:57,850
+And the next information that I want to share is about the video quality and the pace of my communication.
+
+95
+00:06:57,850 --> 00:07:04,690
+For some reason, if you feel the quality of the video is not good, please make sure that you are going
+
+96
+00:07:04,690 --> 00:07:13,870
+to the settings option and make sure you are selecting at least 720P or 1080P option if it is available
+
+97
+00:07:13,900 --> 00:07:19,930
+because by default Udemy is going to change your quality of the video based upon your network speed.
+
+98
+00:07:19,930 --> 00:07:26,800
+So that's why always try to select an option of highest quality that you see inside the video.
+
+99
+00:07:26,800 --> 00:07:32,560
+That way the quality of the video will always stick to whatever quality that you have selected.
+
+100
+00:07:32,560 --> 00:07:38,590
+And at the same time, for some reason, if you feel like I'm talking too fast and I'm talking too slow,
+
+101
+00:07:38,620 --> 00:07:42,280
+Udemy also have an option of playback rate here.
+
+102
+00:07:42,460 --> 00:07:48,160
+If you feel like I'm talking too slow, you can go with an option of increasing the pace of my communication
+
+103
+00:07:48,160 --> 00:07:53,050
+like 1.25 x or 1.5 x based upon your comfort levels.
+
+104
+00:07:53,050 --> 00:07:58,810
+And if you feel like I'm talking too fast, then in that scenario you also have an option of slowing
+
+105
+00:07:58,810 --> 00:08:04,090
+my communication by taking an option of 0.75 x or 0.5 x.
+
+106
+00:08:04,090 --> 00:08:10,840
+So please try to select one of the option whatever comfortable for you because these are the universal
+
+107
+00:08:10,840 --> 00:08:12,460
+problems inside the Udemy.
+
+108
+00:08:12,670 --> 00:08:18,460
+Since inside the Udemy, the courses are going to be taken by students across the world.
+
+109
+00:08:18,460 --> 00:08:23,440
+Definitely there will be a gap in understanding the English language that we talk.
+
+110
+00:08:23,470 --> 00:08:25,090
+There will be a slang difference.
+
+111
+00:08:25,090 --> 00:08:30,790
+So that's why always feel free to select the playback rate that that is comfortable to you.
+
+112
+00:08:30,790 --> 00:08:36,760
+And throughout this course, at any point of time, if you have any question or if you stuck with any
+
+113
+00:08:36,760 --> 00:08:39,820
+issue, I will advise you to follow three steps.
+
+114
+00:08:39,820 --> 00:08:46,480
+The very first step is first, try to Google for the issue that you are facing, like take help from
+
+115
+00:08:46,480 --> 00:08:51,100
+the Google and StackOverflow and the developer community that we have that way.
+
+116
+00:08:51,100 --> 00:08:57,250
+In the process, you will also learn how to look for the solutions that you face inside the real world
+
+117
+00:08:57,250 --> 00:08:57,940
+projects.
+
+118
+00:08:57,940 --> 00:09:03,490
+And even after looking the information inside the Google and StackOverflow, you are not able to resolve
+
+119
+00:09:03,490 --> 00:09:04,150
+the issue.
+
+120
+00:09:04,150 --> 00:09:10,570
+Then look at the Q&A section of this course where many students might have posted many questions.
+
+121
+00:09:10,570 --> 00:09:16,210
+And if you look at those questions and answers that I'm mentioning, you can try to correlate if that
+
+122
+00:09:16,210 --> 00:09:23,080
+issue is related to you, if not as a last step, you can always post the question that you have to
+
+123
+00:09:23,080 --> 00:09:28,780
+me through the Q&A section that we have here, or if you feel like you want to send a personal message
+
+124
+00:09:28,780 --> 00:09:35,530
+to me, you can always send a message to me inside Udemy and it will directly come to my Udemy inbox
+
+125
+00:09:35,530 --> 00:09:38,470
+and I'll try to respond to you as soon as possible.
+
+126
+00:09:38,470 --> 00:09:45,490
+And at last I also want to highlight you that Udemy will ask you for your review at an early stage of
+
+127
+00:09:45,490 --> 00:09:50,650
+the course, and if you feel like you are not yet ready to provide a review, feel free to skip the
+
+128
+00:09:50,650 --> 00:09:51,700
+review process.
+
+129
+00:09:51,700 --> 00:09:58,960
+And I would always advise you to watch at least 30% of the lectures inside the course and that way you
+
+130
+00:09:58,960 --> 00:09:59,590
+will be in a good.
+
+131
+00:09:59,610 --> 00:10:01,920
+Positioned to provide a review to the course.
+
+132
+00:10:01,920 --> 00:10:06,280
+So with this, I'm super excited to start the journey of the spring along with you.
+
+133
+00:10:06,300 --> 00:10:09,000
+Thank you and I'll see you in the next lecture bye.
+

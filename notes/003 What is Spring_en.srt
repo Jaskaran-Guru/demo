@@ -1,0 +1,368 @@
+1
+00:00:00,170 --> 00:00:06,860
+Let's start our discussion by having a brief introduction about what is a spring framework. 
+
+2
+00:00:06,890 --> 00:00:10,620
+That way you have some basic understanding.
+
+3
+00:00:10,640 --> 00:00:16,970
+What is spring and why we have to learn and why everyone in the software industry, especially inside
+
+4
+00:00:16,970 --> 00:00:21,470
+the Java ecosystem, is using spring to a great extent.
+
+5
+00:00:21,470 --> 00:00:28,040
+So if you really ask me what is a spring, the spring framework, which we can shortly refer it as a
+
+6
+00:00:28,040 --> 00:00:36,230
+spring, is a mature, powerful and highly flexible Java framework focused on building web applications
+
+7
+00:00:36,230 --> 00:00:38,120
+inside Java ecosystem.
+
+8
+00:00:38,120 --> 00:00:44,570
+The reason why I'm saying it's a mature and powerful framework is, it is not something which got introduced
+
+9
+00:00:44,570 --> 00:00:45,600
+recently.
+
+10
+00:00:45,620 --> 00:00:52,640
+Spring Framework initially introduced around two decades back, which is in the year of 2002.
+
+11
+00:00:52,640 --> 00:01:00,420
+From 2002, spring evolved a lot based upon the market trends and based upon the developer needs inside
+
+12
+00:01:00,420 --> 00:01:01,530
+Java ecosystem.
+
+13
+00:01:01,530 --> 00:01:08,970
+That's why we can confidently call Spring Framework is a matured and powerful and flexible framework
+
+14
+00:01:08,970 --> 00:01:11,220
+to build Java web applications.
+
+15
+00:01:11,220 --> 00:01:18,210
+So what makes Spring Framework as a favorite framework for all the Java developers is it will make developer
+
+16
+00:01:18,210 --> 00:01:27,060
+life easy by allowing quicker and easier ways to build web applications, focusing on speed, simplicity
+
+17
+00:01:27,060 --> 00:01:34,620
+and productivity, which are all contributed to make Spring as a world most popular Java framework.
+
+18
+00:01:34,620 --> 00:01:40,170
+On a day to day basis, we as a developers have to focus a lot on business logic.
+
+19
+00:01:40,170 --> 00:01:47,220
+So considering that as a developer, I should not put lot of efforts in doing configurations, in writing
+
+20
+00:01:47,220 --> 00:01:52,950
+some dependencies that my application is needed, I should be free from all those requirements.
+
+21
+00:01:52,950 --> 00:01:59,070
+The reason is, as a developer and as a human being, I should focus on the business logic and I should
+
+22
+00:01:59,070 --> 00:02:06,060
+have some easier mechanisms to support all the requirements that I need for a Java Web applications
+
+23
+00:02:06,060 --> 00:02:10,259
+in the form of defining dependencies, writing configurations.
+
+24
+00:02:10,259 --> 00:02:17,010
+So all these supporting components is provided by spring in a quicker and easier manner.
+
+25
+00:02:17,010 --> 00:02:18,990
+We will discuss in the coming lectures.
+
+26
+00:02:18,990 --> 00:02:26,490
+For now, please make a note that spring makes your programming of Java web applications quicker and
+
+27
+00:02:26,490 --> 00:02:32,820
+easier, and the scenario can be anything whether you might be building a web application or reactive
+
+28
+00:02:32,820 --> 00:02:39,510
+application or even a microservices or a backend for a mobile application or you want to build a
+
+29
+00:02:39,510 --> 00:02:43,860
+complex application which will stream data over your enterprise.
+
+30
+00:02:43,860 --> 00:02:50,400
+So for all these kind of scenarios, Spring has supporting tools that can help during development.
+
+31
+00:02:50,400 --> 00:02:57,420
+And spring is born as an alternative to the EJBs that are very famous in the early 2000.
+
+32
+00:02:57,540 --> 00:03:04,860
+So we all know Enterprise Java Beans, which is invented as part of Java Enterprise Edition, is
+
+33
+00:03:04,860 --> 00:03:06,360
+very complex in nature.
+
+34
+00:03:06,360 --> 00:03:12,930
+So if you ask any of your colleagues who worked on Ejbs around 2000, they can clearly tell you that,
+
+35
+00:03:12,960 --> 00:03:17,370
+EJB is a super  complicated framework to build web applications.
+
+36
+00:03:17,370 --> 00:03:24,840
+So to avoid all those complications and to make developer life easy, spring came as an alternative
+
+37
+00:03:24,840 --> 00:03:30,510
+to the EJBs framework, and within no time spring overtook all its opponents.
+
+38
+00:03:30,510 --> 00:03:37,170
+Just because it is very simple to build web applications and it has variety of features and third party
+
+39
+00:03:37,170 --> 00:03:40,680
+library integrations that we can see in the coming lectures.
+
+40
+00:03:40,680 --> 00:03:46,970
+So with all these features that spring provides, it overtook all its opponents like Ejbs, struts.
+
+41
+00:03:46,980 --> 00:03:54,330
+So all these frameworks are now behind the spring and spring is majorly being used over the Java ecosystem,
+
+42
+00:03:54,330 --> 00:04:01,950
+and it is so popular that its main competitor, which is Oracle Java Enterprise Edition, they quit
+
+43
+00:04:01,950 --> 00:04:08,010
+their race and they hand over that enterprise edition to the community after Java Enterprise Edition
+
+44
+00:04:08,010 --> 00:04:14,400
+eight to version just because everyone started and continued to use Spring as their favorite Java framework.
+
+45
+00:04:14,400 --> 00:04:21,959
+And that's why Oracle felt that there is no meaning putting efforts building Enterprise Edition in competing
+
+46
+00:04:21,959 --> 00:04:22,950
+spring framework.
+
+47
+00:04:22,950 --> 00:04:29,490
+With all these reasons and their own business reasons, Oracle handover that enterprise edition maintenance
+
+48
+00:04:29,490 --> 00:04:30,570
+to a community.
+
+49
+00:04:30,570 --> 00:04:36,420
+And that's why the recent versions of Enterprise Edition we should call Jakarta Enterprise Edition,
+
+50
+00:04:36,420 --> 00:04:41,610
+but not Java Enterprise Edition, because Oracle owns the brand name of Java.
+
+51
+00:04:41,610 --> 00:04:47,670
+So due to that reason, they renamed that Java Enterprise edition to Jakarta Enterprise Edition.
+
+52
+00:04:47,670 --> 00:04:52,080
+So Jakarta Enterprise Edition maintains by a community of developers.
+
+53
+00:04:52,080 --> 00:04:56,520
+So you can ask me what is the main reason that Spring framework is so successful?
+
+54
+00:04:56,520 --> 00:04:59,520
+I would say the very first and main reason is.
+
+55
+00:04:59,830 --> 00:05:04,790
+It evolves over the period based upon the market trends, like in the initial days.
+
+56
+00:05:04,810 --> 00:05:10,710
+Spring came up with only spring core and spring MVC pattern to build monolithic applications.
+
+57
+00:05:10,720 --> 00:05:16,270
+Later on when industry is moving towards a microservices cloud native applications.
+
+58
+00:05:16,270 --> 00:05:23,230
+Then spring also started evolving by introducing lot of features like Spring Boot, which will make
+
+59
+00:05:23,230 --> 00:05:27,880
+developer life very easy in building web applications, microservices applications.
+
+60
+00:05:27,880 --> 00:05:33,970
+So with the reasons that it evolves on day to day basis and it's very simple to use and it will make
+
+61
+00:05:33,970 --> 00:05:35,440
+developer life easy.
+
+62
+00:05:35,470 --> 00:05:41,800
+Spring became one of the most popular Java framework On top of that, Spring is not a commercial framework.
+
+63
+00:05:41,800 --> 00:05:43,240
+It's an open source.
+
+64
+00:05:43,240 --> 00:05:47,140
+Anyone can use this spring framework without paying any money.
+
+65
+00:05:47,140 --> 00:05:53,800
+So who don't want the open source framework that is providing all the production ready enterprise features?
+
+66
+00:05:53,800 --> 00:06:00,400
+That's why industry adopted this spring framework in a very fast manner and due to this reason over
+
+67
+00:06:00,400 --> 00:06:07,160
+the last few decades, Spring has a large and active community of developers who continuously give feedback
+
+68
+00:06:07,160 --> 00:06:14,480
+to the spring team and they also provide help to other developers or StackOverflow or writing many blogs
+
+69
+00:06:14,480 --> 00:06:15,260
+over the web.
+
+70
+00:06:15,260 --> 00:06:21,920
+That way, if any developer struck due to any issues, they can always reach out to these active community
+
+71
+00:06:21,920 --> 00:06:23,990
+and get help immediately.
+
+72
+00:06:23,990 --> 00:06:29,120
+You can also see how popular the spring framework is inside Java ecosystem.
+
+73
+00:06:29,120 --> 00:06:37,820
+So in 2021, when J Rebel team, they did a survey with all the Java developers with a question that
+
+74
+00:06:37,820 --> 00:06:44,990
+what is the framework that you use inside your projects on day to day basis, you can see 62% of the
+
+75
+00:06:44,990 --> 00:06:52,160
+developers said they are using Spring boot or spring related frameworks, followed by Dropwizard, Quarkus,
+
+76
+00:06:52,190 --> 00:06:56,000
+Micronaut, Vertex and other is 17%.
+
+77
+00:06:56,000 --> 00:07:02,690
+So inside others we may have many other frameworks, but you can see spring is a clearly a winner here.
+
+78
+00:07:02,690 --> 00:07:08,840
+And similarly, one more survey that is done by snic.io website here.
+
+79
+00:07:08,840 --> 00:07:14,960
+They went ahead and asked all the Java developers to provide what are the frameworks that they use and
+
+80
+00:07:14,960 --> 00:07:16,820
+they can select more than one response.
+
+81
+00:07:16,820 --> 00:07:22,220
+That's why you can see the sum of all these percentages not matching with 100%.
+
+82
+00:07:22,220 --> 00:07:28,580
+The reason is the developers can select more than one response, but still you can see Spring Boot has
+
+83
+00:07:28,580 --> 00:07:31,640
+50%, Spring MVC has 31%.
+
+84
+00:07:31,640 --> 00:07:38,570
+So with this, please be super confident that you are learning a hot and trending Java framework, which
+
+85
+00:07:38,570 --> 00:07:44,660
+is spring and as and when we discuss about it features in the coming lectures, I'm definitely confident
+
+86
+00:07:44,660 --> 00:07:48,320
+that you will also start liking the spring framework with this.
+
+87
+00:07:48,320 --> 00:07:54,290
+I'm hoping you got a brief introduction of what is spring, but don't worry if any of the statements
+
+88
+00:07:54,290 --> 00:07:56,480
+that I made is not clear to you.
+
+89
+00:07:56,480 --> 00:08:03,020
+The reason is we will discuss each and every feature of spring in the coming lectures in detail.
+
+90
+00:08:03,020 --> 00:08:09,230
+And when we start discussing all those features, I'm sure you will also like and agree with my statements
+
+91
+00:08:09,230 --> 00:08:12,440
+that spring is a most popular Java framework.
+
+92
+00:08:12,440 --> 00:08:15,080
+Thank you and I'll see you in the next lecture bye.
+
