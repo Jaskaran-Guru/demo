@@ -2,11 +2,13 @@ package example.model;
 
 import jakarta.persistence.*;
 
-@Entity
+@Entity  // for making tale name
 @Table(name = "students")
+
+
 public class Student {
 
-    @Id
+    @Id   // for making primary key
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 

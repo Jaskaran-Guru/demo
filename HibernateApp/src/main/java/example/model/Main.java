@@ -24,8 +24,13 @@ public class Main {
             // access the values
 
             Student s = session.get(Student.class, 6);
-            System.out.println(s.getName());
-            System.out.println(s.getEmail());
+            System.out.println(student1.getName() + " "  +  student1.getEmail());
+
+            student1.setName("Harshit Saddi" );
+
+            session.remove(student);
+
+
 
 
 

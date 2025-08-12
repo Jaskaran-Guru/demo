@@ -20,7 +20,7 @@
         <property name="hibernate.format_sql">true</property>
 
         <!-- Automatically update schema -->
-        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
 
         <!-- Mapping Class -->
         <mapping class="example.model.Student"/>
