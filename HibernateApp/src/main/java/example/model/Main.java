@@ -25,6 +25,7 @@ public class Main {
 
             Student s = session.get(Student.class, 6);
             System.out.println(s.getName());
+            System.out.println(s.getEmail());
 
 
 
