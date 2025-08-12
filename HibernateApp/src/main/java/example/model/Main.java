@@ -21,6 +21,8 @@ public class Main {
 
             session.save(student1);
 
+            // access the values
+
             Student s = session.get(Student.class, 6);
             System.out.println(s.getName());
 
