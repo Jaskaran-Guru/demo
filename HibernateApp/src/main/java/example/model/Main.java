@@ -13,8 +13,10 @@ public class Main {
         try {
             tx = session.beginTransaction();
 
-            Student student = new Student("John Doe", "john@example.com");
+            Student student = new Student("John ", "john@example.com");
+            Student student1 =  new Student("Harshit" , "harshit@example.com");
             session.save(student);
+            session.save(student1);
 
             tx.commit();
             System.out.println("Student saved successfully!");
