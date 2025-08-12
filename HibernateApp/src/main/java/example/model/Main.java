@@ -13,10 +13,19 @@ public class Main {
         try {
             tx = session.beginTransaction();
 
-            Student student = new Student("John ", "john@example.com");
-            Student student1 =  new Student("Harshit" , "harshit@example.com");
+            Student student = new Student("John ", "john@example.com");  // change value
+            Student student1 =  new Student("Harshit" , "harshit@example.com"); // insert multiple values  using  different objects
+
+            // save them
             session.save(student);
+
             session.save(student1);
+
+            Student s = session.get(Student.class, 6);
+            System.out.println(s.getName());
+
+
+
 
             tx.commit();
             System.out.println("Student saved successfully!");
