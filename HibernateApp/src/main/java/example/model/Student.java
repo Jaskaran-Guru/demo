@@ -6,6 +6,8 @@ import jakarta.persistence.*;
 @Table(name = "students")
 
 
+
+
 public class Student {
 
     @Id   // for making primary key
@@ -24,6 +26,10 @@ public class Student {
         this.name = name;
         this.email = email;
     }
+
+
+
+
 
     // Getters & Setters
 

@@ -4,6 +4,10 @@ import example.model.Student;
 import example.model.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import  org.hibernate.cfg.Configuration;
+import org.hibernate.query.Query; // Hibernate 5.2+
+
+
 
 public class Main {
     public static void main(String[] args) {
@@ -14,12 +18,38 @@ public class Main {
             tx = session.beginTransaction();
 
             Student student = new Student("John ", "john@example.com");  // change value
-            Student student1 =  new Student("Harshit" , "harshit@example.com"); // insert multiple values  using  different objects
+            Student student1 = new Student("Harshit", "harshit@example.com"); // insert multiple values  using  different objects
+
+            Student student2 = new Student("C", "CC@example.com");
+
+
+            String hql = "FROM Student WHERE name = :name";
+            Query<Student> q = session.createQuery(hql, Student.class);
+            q.setParameter("name", "Harshit Saddi");
+
+            Student student3 = q.uniqueResultOptional().orElse(null);
+            System.out.println(student);
+
+
+
+
+            if (student != null) {
+                session.save(student);
+            } else {
+                System.out.println("No student found with that name");
+            }
+
+
+
+
+
 
             // save them
-            session.save(student);
+//
 
             session.save(student1);
+
+            session.save(student2);
 
             // access the values
 
@@ -28,7 +58,7 @@ public class Main {
 
             student1.setName("Harshit Saddi" );
 
-            session.remove(student);
+
 
 
 
